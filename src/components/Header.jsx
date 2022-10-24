@@ -22,12 +22,12 @@ function Header(props) {
           <span>{totalPrice} руб.</span>
         </li>
         <li className="d-flex mr-15 align-center">
-          <Link to="react-sneakers/favorites">
+          <Link to="/favorites">
             <img width={18} height={18} src="img/heart.svg" alt="Закладки" />
           </Link>
         </li>
         <li className="d-flex align-center">
-          <Link to="react-sneakers/orders">
+          <Link to="/orders">
             <img width={18} height={18} src="img/user.svg" alt="User" />
           </Link>
         </li>
